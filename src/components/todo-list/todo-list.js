@@ -6,7 +6,10 @@ const TodoList = () => {
     <div>
       <ul>
         <li>
-          <TodoListItem />
+          <TodoListItem label="To read a book" />
+        </li>
+        <li>
+          <TodoListItem label="To go shoping" />
         </li>
       </ul>
     </div>
